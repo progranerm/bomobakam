@@ -1,0 +1,62 @@
+ #input {
+    padding-top: 5px;
+    padding-bottom: 9px;
+    font-size: 27px;
+    outline: none;
+    border: 1px black solid;
+}
+
+#date {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    outline: none;
+    border: 1px black solid;
+}
+
+#add {
+    background: green;
+    color: azure;
+    padding: 10px;
+    padding-inline: 30px;
+    font-size: 20px;
+    outline: none;
+    border: 1px black solid;
+}
+
+#delete-all {
+    background: #d10000;
+    color: azure;
+    padding: 10px;
+    padding-inline: 30px;
+    font-size: 20px;
+    outline: none;
+    border: 1px black solid;
+}
+
+.container .todo {
+    background: lightblue;
+    word-wrap: break-word;
+    width: 343px;
+    font-size: 19px;
+    padding: 7px 0;
+    display: inline-block;
+}
+
+.container .due-date {
+    margin-left: 5px;
+    font-size: 30px;
+    padding: 5px;
+    display: inline-block;
+}
+
+.container .delete {
+    background: rgb(240, 26, 26);
+    color: azure;
+    padding: 10px;
+    padding-inline: 19px;
+    margin-left: 12px;
+    font-size: 20px;
+    outline: none;
+    border: 1px black solid;
+}
